@@ -17,3 +17,8 @@ let isAdult = age > 18 ? true : false;
 
 //нужно так 
 let isAdultDoneRight = age > 18;
+
+
+console.log(`Произвольное число: ${randomNumber}`);
+
+console.log(randomNumber > 20 ? "Число > 20" : "Число <= 20");
