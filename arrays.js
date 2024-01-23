@@ -14,3 +14,11 @@
 
 // console.log(alphabet);
 // console.log(alphabet.length);
+
+let greetings = ['hello', 'good morning', 'good evning', 'good afternoon'];
+
+console.log(greetings[2]); // упс, опечатка 
+
+//исправим опечатку 
+greetings[2] = 'good evening';
+console.log(greetings[2]);
