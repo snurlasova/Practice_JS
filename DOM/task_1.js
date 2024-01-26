@@ -5,7 +5,7 @@ function createStudentCard(name, age){
     nameStudent.textContent = name;
 
     let ageSpan = document.createElement('span');
-    ageSpan.textContent = 'Возраст' + age + 'лет';
+    ageSpan.textContent = 'Возраст ' + age + ' лет';
 
     studentCard.appendChild(nameStudent);
     studentCard.appendChild(ageSpan);
@@ -20,4 +20,5 @@ function createStudentCard(name, age){
   studentCard.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
   nameStudent.style.marginBottom = '10px';
 }
+
 createStudentCard('Игорь', 17);
